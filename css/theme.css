@@ -1,0 +1,17 @@
+:root {
+  --color-primary: #515373;
+  --color-primary-dark: #3A3C51;
+  --color-secondary: #ABA630;
+  --color-secondary-dark: #726C21;
+  --color-tertiary: #BF7EA8;
+  --color-tertiary-dark: #845977;
+  --color-quarternary: #2B2B2B;
+  --color-quarternary-light: #fff;
+
+  --font-primary: "Merienda", cursive;
+  --font-secondary: "Open Sans Condensed", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
