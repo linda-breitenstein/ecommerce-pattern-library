@@ -8,22 +8,11 @@
   --color-quarternary: #2B2B2B;
   --color-quarternary-light: #fff;
 
-  --font-primary: "Merienda", cursive;
-  --font-secondary: "Open Sans Condensed", sans-serif;
+  --font-secondary: "Merienda", cursive;
+  --font-primary: "Open Sans Condensed", sans-serif;
 }
 
-html {
-  font-family: var(--font-secondary);
-}
-
-h1 {
-  font-family: var(--font-primary);
-}
-
-h2 {
-  font-family: var(--font-primary);
-}
-
-h3 {
-  font-family: var(--font-primary);
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-secondar);
+  color: var(--color-primary-dark);
 }
