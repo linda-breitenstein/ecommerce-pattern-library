@@ -2,4 +2,24 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: "Bijou Brine"
+  description: A small batch brinery that specializes in gourmet pickles. Made with the highest quailty ingredients, locally sourced from organic farms in the Ottawa area.
   font_url: "https://fonts.googleapis.com/css?family=Merienda:400,700|Open+Sans+Condensed:300,300i,700&display=swap"
+  colors:
+    background: "--color-quarternary-light"
+    accent: "--color-primary"
+    patterns:
+      brand.logos: "--color-primary-dark"
+  rationales:
+    typefaces.primary: |
+      Open Sans Condensed was selected because of its ease of readability, clean look, and a classic paring to the secondary font Merienda.
+    typefaces.secondary: |
+      Merienda was chosen as the secondary font to draw interest in from the readers. It is fun and playful and will be used for highlighting text like headings, buttons, banners, etc.
+    colors.primary: |
+      The primary colours represent a deep purple colour meant to symbolize wealth and extravagance. They should be used in headings and backgrounds.
+    colors.secondary: |
+      The secondary colours represent an olive green and meant to symbolize pickles, and nature. They should be used for backgrounds.
+    colors.tertiary: |
+      The tertiary colours represent the pink family and meant to symbolize health and wellbeing. They should be used for backgrounds.
+    colors.quarternary: |
+      The accent colours are a shade of black and white. They should be used for text.

@@ -13,6 +13,39 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-secondar);
-  color: var(--color-primary-dark);
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+ul, ol, dl {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+  font-weight: 400;
+}
+
+a, p {
+  font-family: var(--font-secondary);
+  color: var(--color-quarternary);
+  font-weight: lighter;
+}
+
+blockquote, cite {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+  font-style: italic;
+  font-weight: bold;
+}
+
+i {
+  font-style: italic;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+mark {
+  background-color: var(--color-tertiary);
+
 }
