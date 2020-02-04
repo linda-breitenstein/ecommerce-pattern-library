@@ -42,3 +42,20 @@
   font-family: var(--font-primary);
   font-weight: bold;
 }
+
+.btn-accent {
+  background-color: var(--color-quarternary);
+  border-color: var(--color-quarternary);
+  color: #fff;
+  font-family: var(--font-primary);
+  font-weight: bold;
+}
+
+.btn-accent:hover {
+  background-color: transparent;
+  border-color: var(--color-quarternary);
+  color: var(--color-quarternary);
+  font-family: var(--font-primary);
+  font-weight: bold;
+
+}
