@@ -12,9 +12,9 @@ patternbot:
       brand.logos: "--color-primary-dark"
   rationales:
     typefaces.primary: |
-      Open Sans Condensed was selected because of its ease of readability, clean look, and a classic paring to the secondary font Merienda.
+      Lato was selected because of its ease of readability, clean look, and a classic paring to the secondary font Baskerville.
     typefaces.secondary: |
-      Merienda was chosen as the secondary font to draw interest in from the readers. It is fun and playful and will be used for highlighting text like headings, buttons, banners, etc.
+      Libre Baskerville was chosen as the secondary font to draw interest in from the readers. It is fun and playful and will be used for highlighting text like headings, buttons, banners, etc.
     colors.primary: |
       The primary colours represent a deep purple colour meant to symbolize wealth and extravagance. They should be used in headings and backgrounds.
     colors.secondary: |

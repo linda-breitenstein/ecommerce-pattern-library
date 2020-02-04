@@ -8,8 +8,8 @@
   --color-quarternary: #2B2B2B;
   --color-quarternary-light: #fff;
 
-  --font-secondary: "Merienda", cursive;
-  --font-primary: "Open Sans Condensed", sans-serif;
+  --font-secondary: "Libre Baskerville", serif;
+  --font-primary: "Lato", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
