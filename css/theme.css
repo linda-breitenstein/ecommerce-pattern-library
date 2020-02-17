@@ -25,13 +25,13 @@ ul, ol, dl {
 }
 
 a, p {
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   color: var(--color-quarternary);
   font-weight: lighter;
 }
 
 blockquote, cite {
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   color: var(--color-primary);
   font-style: italic;
   font-weight: bold;
