@@ -1,0 +1,25 @@
+title: "Buttons"
+description: |
+  Buttons should be used in situations where a dramatic, obvious action is required. Try to not to over use buttons because they should be the primar call-to-action for a screen.
+
+patterns:
+  basic:
+    title: "Basic"
+    description: |
+      Desfault to using the basic button. It should always be used in from of a dark or light background and also seen on banners.
+  ghost:
+    title: "Ghost"
+    description: |
+      The ghost button is speciffically for the products page. It prompts the users to add items to their shopping cart. It should always be used on a dark background.
+  accent:
+    title: "Accent"
+    description: |
+      The accent button is speciffically for the sign up page. It promts the user to send their information to the company to save their information.
+  light:
+    title: "Light"
+    description: |
+      The light button is speciffically for cards. It promts users to select different options when picking out their products.
+  primary:
+    title: "Primary"
+    description: |
+      The primary button is also seen on cards of products. It allows users to see new products.

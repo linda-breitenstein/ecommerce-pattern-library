@@ -1,0 +1,21 @@
+title: "Cards"
+description: |
+  Cards are used throughout the site to display products are give viewers quick bursts of information.
+
+patterns:
+  card:
+    title: "Card"
+    description: |
+      Default when viewers have clicked on a specific product. The card will display a photo of the prduct, and will be placed on the left hand side with specific product stats on the right.
+  product-card:
+    title: "Product Card"
+    description: |
+      Each card will be on the products page. It will display a photo, the price, name of product, brief description of the product. The entire card will be clickable.
+  dark-jar:
+    title: "Dark Jar"
+    description: |
+      Dark Jar card will only be displayed on the dark right side of banner. It will be there for the sole purpose of welcoming viewers.
+  white-jar:
+    title: "White Jar"
+    description: |
+      White Jar, similar to Dark Jar will be only dislayed on the light products banner. It will be on the right hand side for the sole purpose of welcoming guests.
