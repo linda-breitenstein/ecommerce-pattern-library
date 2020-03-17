@@ -1,0 +1,15 @@
+.header-main {
+  font-family: var(--font-secondary);
+  background-color: var(--color-quarternary)
+}
+
+a {
+  font-family: var(--font-primary);
+  color: var(--color-quarternary-light);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-primary);
+  text-decoration: underline;
+}

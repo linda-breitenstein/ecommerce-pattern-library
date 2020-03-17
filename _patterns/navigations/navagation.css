@@ -1,4 +1,4 @@
-.header-nav a,
+/* .header-nav a, */
 .footer a,
 .pagenumbers a {
   text-decoration: none;
@@ -17,7 +17,7 @@
   font-family: var(--font-primary);
 }
 
-.header-nav a {
+/* .header-nav a {
   font-family: var(--font-secondary);
   color: var(--color-black);
 }
@@ -29,8 +29,8 @@
 .header-nav > li {
   display: block;
   text-align: right;
-}
-
+} */
+/*
 ul > li::before {
   content: none;
 }
@@ -46,9 +46,9 @@ ul > li::before {
 
 .header-nav {
   display: block;
-}
+} */
 
-@media only screen and (min-width: 38em) {
+/* @media only screen and (min-width: 38em) {
 
   .header-nav {
     display: flex;
@@ -59,4 +59,4 @@ ul > li::before {
     transform: none;
   }
 
-}
+} */

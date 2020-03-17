@@ -1,0 +1,32 @@
+<!-- <a class="logo block island-1-2 peta color-primary font-secondary" href="/">
+  <i class="icon i-48">
+    <img src="/images/logo.svg" alt="">
+  </i>
+</a>
+<nav class="relative" role="navigation" id="nav">
+  <ul class="list-group-inline push-0 header-nav tera" id="menu">
+    <li class="push-1-2"><a href="/products/">Shop</a></li>
+    <li class="push-1-2"><a href="#">About Us</a></li>
+    <li class="push-1-2"><a href="#">Merchandise</a></li>
+  </ul>
+</nav> -->
+
+
+<header class="header-main text-center" role="banner">
+<div class="logo push pad-t grid grid-middle">
+  <div class="unit xs-1 text-center pad-t-1-2 gutter-1-2 push-1-4">
+    <i class="icon i-64 unit xs-1 not-italic bold yotta left text-center" id="logo" tabindex="0">
+      <img src="/images/logo.svg" alt="pickle logo">
+    </i>
+  </div>
+  <div class="unit xs-1 pad-t push-1-4">
+    <nav role="navigation" id="nav" tabindex="0" class="unit xs-1 pad-b-2">
+      <ul class="list-group-inline nav text-center right unit xs-1 mega push-0">
+        <li class="gutter {% if page.highlight_nav == 'shop' %}current{% endif %}"><a href="/products/" class="pad-b-1-8">Shop</a></li>
+        <li class="gutter {% if page.highlight_nav == 'about' %}current{% endif %}"><a href="#" class="pad-b-1-8">About Us</a></li>
+        <li class="gutter {% if page.highlight_nav == 'merchandise' %}current{% endif %}"><a href="#" class="pad-b-1-8">Merchandise</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+</header>
