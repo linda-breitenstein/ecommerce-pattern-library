@@ -1,0 +1,62 @@
+.header-nav a,
+.footer a,
+.pagenumbers a {
+  text-decoration: none;
+}
+
+.current {
+  color: var(--color-primary-dark);
+}
+
+.search-nav i {
+  color: var(--color-black);
+}
+
+.cart-amount {
+  color: var(--color-primary-dark);
+  font-family: var(--font-primary);
+}
+
+.header-nav a {
+  font-family: var(--font-secondary);
+  color: var(--color-black);
+}
+
+.header-nav a:hover {
+  color: var(--color-primary);
+}
+
+.header-nav > li {
+  display: block;
+  text-align: right;
+}
+
+ul > li::before {
+  content: none;
+}
+
+.header-nav {
+  position: relative;
+  padding-top: 2em;
+}
+
+.header-nav {
+  display: none;
+}
+
+.header-nav {
+  display: block;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+    padding: 0;
+    transform: none;
+  }
+
+}

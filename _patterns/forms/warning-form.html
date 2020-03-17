@@ -1,0 +1,61 @@
+<form class="island" action="#" method="post" novalidate>
+
+  <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+    <h3 class="push-0">
+      <i class="icon i-18"><svg><use xlink:href="/images/icons.svg#warning"></use></svg></i>
+      <span class="icon-label">Whoops! There is something missing</span>
+    </h3>
+  </div>
+
+  <div class="push-1-2">
+    <label for="name">Name</label>
+    <input class="island" name="name" id="name" required aria-describedby="name-error">
+    <p class="error-message milli island-1-4 push-0" id="name-error">
+      <i class="icon i-18"><svg><use xlink:href="/images/icons.svg#warning"></use></svg></i>
+      <span class="icon-label">Please provide a name</span>
+    </p>
+  </div>
+
+  <div class="push-1-2">
+    <label for="email">Email</label>
+    <input class="island" type="email" id="email" required aria-describedby="email-error">
+    <p class="error-message milli island-1-4 push-0" id="email-error">
+      <i class="icon i-18"><svg><use xlink:href="/images/icons.svg#warning"></use></svg></i>
+      <span class="icon-label">Please provide a properly formatted email address</span>
+    </p>
+  </div>
+
+  <div class="push-1-2">
+    <label class="island" for="url">Website <em class="flag-optional milli normal">(optional)</em></label>
+    <input type="url" id="url" required>
+  </div>
+
+  <div class="push-1-2">
+    <input type="checkbox" id="agree" required aria-describedby="agree-error">
+    <label class="island" for="agree">Terms of Service</label>
+    <p class="error-message milli island-1-4 push-0" id="agree-error">
+      <i class="icon i-18"><svg><use xlink:href="/images/icons.svg#warning"></use></svg></i>
+      <span class="icon-label">Accept before continuing</span>
+    </p>
+  </div>
+
+  <label for="selector">Size of Item?</label>
+  <select id="selector" required aria-describedby="selector-error">
+  <p class="error-message milli island-1-4 push-0" id="selector-error">
+    <i class="icon i-18"><svg><use xlink:href="/images/icons.svg#warning"></use></svg></i>
+    <span class="icon-label">Please choose one of the options.</span>
+  </p>
+    <option class="island" value="">Select One...</option>
+    <option>Small</option>
+    <option>Medium</option>
+    <option>Large</option>
+    <option>XL-Large</option>
+  </select>
+
+  <div class="pad-t-1-2">
+    <button class="btn btn-basic" type="submit">Submit</button>
+  </div>
+
+  </form>
+
+  <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>

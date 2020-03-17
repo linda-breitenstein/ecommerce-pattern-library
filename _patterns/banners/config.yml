@@ -1,0 +1,23 @@
+title: "Banners"
+description: |
+  Banners will draw the viewers into the website and create a visual representation of Bijou Brine
+
+patterns:
+  banner-dark-card:
+    title: "Banner Dark Card"
+    description: |
+      This banner will be used on the inital landing and products page. The image, title and details will change based on what page it is on.
+    fields:
+      - name: heading
+        type: string
+        example: "Pickle Your Life"
+      - name: text
+        type: string
+        example: "Just like Momma used to make. Yeehaw!"
+      - name: icon
+        type: string
+        example: "black-jar"
+  banner-light-card:
+    title: "Banner Light Card"
+    description: |
+      This banner will be used on the merchandise landing page and will guide users to buy things.

@@ -1,0 +1,21 @@
+title: "Navigations"
+description: |
+  Navigations will allow users to navigate around the website easily
+
+patterns:
+  search-nav:
+    title: "Search Nav"
+    description: |
+      Allows users to search throughout the website
+  pagenumbers:
+    title: "Page Numbers"
+    description: |
+      Will be found on the bottom of the page to allow users to navigate specific
+  footer:
+    title: "Footer"
+    description: |
+      Will be found at the very bottom of the page and will be on all the pages.
+  header:
+    title: "Header"
+    description: |
+      Will be used at the top of the page and will allow users to easily navigate around the website organized into the four main groups of the website.

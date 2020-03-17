@@ -23,3 +23,6 @@ patternbot:
       The tertiary colours represent the pink family and meant to symbolize health and wellbeing. They should be used for backgrounds.
     colors.quarternary: |
       The accent colours are a shade of black and white. They should be used for text.
+  layouts:
+    default: |
+      The default layout should be used for almost every page, it includes the website's primary header & footer.

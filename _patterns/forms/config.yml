@@ -1,0 +1,41 @@
+title: "Forms"
+description: |
+  Forms will be used to allow guests to easily input information to purchase products, merchandise and join newsletters
+
+patterns:
+  select:
+    title: "Select"
+    description: |
+      Allows users to choose different sizes of their merchandise
+  text:
+    title: "Text"
+    description: |
+      Allow users to type in text to the form
+  radio:
+    title: "Radio"
+    description: |
+      Allow users to check radio buttons. Intented for newsletters
+  checkbox:
+    title: "Checkbox"
+    description: |
+      Intented to allow users to say they agree or disagree with terms and services.
+  numbers:
+    title: "Numbers"
+    description: |
+      This will allow users to select multiples of items to add to cart.
+  warning-form:
+    title: "Warning Form"
+    description: |
+      This will appear if any information is inputted incorrectly. Showing users there was a mistake in one of their input fields
+  search:
+    title: "Search"
+    description: |
+      This form allows users to type what they want to search for throughout the entire Website.
+  email-form:
+    title: "Email Form"
+    description: |
+      This form is intented to promt users to input their email. There is a placeholder to show users what is needed.
+  text-area:
+    title: "Text area"
+    description: |
+      This form is intented for users to give longer responses.
