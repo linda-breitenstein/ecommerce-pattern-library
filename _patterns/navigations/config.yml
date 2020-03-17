@@ -15,7 +15,3 @@ patterns:
     title: "Footer"
     description: |
       Will be found at the very bottom of the page and will be on all the pages.
-  header:
-    title: "Header"
-    description: |
-      Will be used at the top of the page and will allow users to easily navigate around the website organized into the four main groups of the website.

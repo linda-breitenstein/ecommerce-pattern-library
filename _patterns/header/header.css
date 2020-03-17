@@ -13,3 +13,16 @@ a:hover {
   color: var(--color-primary);
   text-decoration: underline;
 }
+
+@media only screen and (min-width: 38em) {
+
+  .header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+    padding: 0;
+    transform: none;
+  }
+
+}
