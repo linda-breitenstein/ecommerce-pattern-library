@@ -1,9 +1,12 @@
 
 select,
-input,
 textarea {
   border-color: var(--color-primary-dark);
   border-radius: 2px;
+}
+
+input {
+  border-color: var(--color-tertiary-dark);
 }
 
 input[type="radio"] + label::before,
