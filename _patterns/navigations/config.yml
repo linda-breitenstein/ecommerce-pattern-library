@@ -8,7 +8,7 @@ patterns:
     description: |
       Allows users to search throughout the website
   header:
-    title: "Header"
+    title: "Header Navigation"
     description: |
       Will be used at the top of the page and will allow users to easily navigate around the website organized into the four main groups of the website.
   pagenumbers:

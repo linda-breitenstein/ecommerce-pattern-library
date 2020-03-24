@@ -44,9 +44,9 @@
 }
 
 .btn-accent {
-  background-color: var(--color-quarternary);
-  border-color: var(--color-quarternary);
-  color: #fff;
+  background-color: var(--color-quarternary-light);
+  border-color: var(--color-quarternary-light);
+  color: var(--color-tertiary-dark);
   font-family: var(--font-primary);
   font-weight: bold;
 }
