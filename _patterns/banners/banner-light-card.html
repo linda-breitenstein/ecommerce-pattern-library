@@ -1,11 +1,11 @@
 <div class="banner-light">
   <div class="hero-image">
-    <img class="img-flex"src="/images/banners/bottlebanner.jpg" alt="">
+    <img class="img-flex"src="/images/banners/{{include.image}}" alt="">
   </div>
-  <div class="hero-text">
-    <h1 class="wrapper text-center">{{include.heading}}</h1>
-    <p class="wrapper">{{include.text}}</p>
-
+  <div class="hero-text text-middle">
+    <h1 class="tena wrapper text-center">{{include.heading}}</h1>
+    <p class="wrapper">{{include.details}}</p>
+    {% pattern buttons/ghost text="Subscribe" %}
   </div>
 
 </div>

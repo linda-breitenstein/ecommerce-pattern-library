@@ -13,16 +13,16 @@
 
 .btn-ghost {
   background-color: transparent;
-  border-color: var(--color-primary-dark);
-  color: var(--color-primary-dark);
+  border-color: #fff;
+  color: #fff;
   font-family: var(--font-primary);
   font-weight: bold;
 }
 
 .btn-ghost:hover {
   background-color: transparent;
-  border-color: var(--color-primary);
-  color: var(--color-primary);
+  border-color: var(--color-tertiary);
+  color: var(--color-tertiary);
   font-family: var(--font-primary);
   font-weight: bold;
 }
@@ -52,9 +52,9 @@
 }
 
 .btn-accent:hover {
-  background-color: transparent;
-  border-color: var(--color-quarternary);
-  color: var(--color-quarternary);
+  background-color: var(--color-tertiary-dark);
+  border-color: var(--color-tertiary-dark);
+  color: var(--color-quarternary-light);
   font-family: var(--font-primary);
   font-weight: bold;
 

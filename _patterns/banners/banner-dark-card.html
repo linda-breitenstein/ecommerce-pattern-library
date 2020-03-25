@@ -1,8 +1,8 @@
 <div class="banner-dark">
   <div class="hero-image">
-    <img class="img-flex"src="/images/banners/picklebanner.jpg" alt="">
+    <img class="img-flex" src="/images/banners/{{include.image}}" alt="">
   </div>
-  <div class="hero-text">
+  <div class="hero-text text-middle">
     <h1 class="banner-title tenamega push-1-2 wrapper text-center">{{include.heading}}</h1>
-    {% pattern buttons/accent %}
+    {% pattern buttons/accent text="Shop Now" %}
 </div>

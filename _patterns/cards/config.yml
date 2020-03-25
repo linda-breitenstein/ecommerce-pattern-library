@@ -5,16 +5,52 @@ description: |
 patterns:
   card:
     title: "Card"
+    width: 400
+    fields:
+      - name: title
+        type: string
+        example: "Pickles"
+      - name: details
+        type: string
+        example: "This is a short blub about how amazing pickles are"
+      - name: image
+        type: image
+        example: "pickle.png"
     description: |
       Default when viewers have clicked on a specific product. The card will display a photo of the prduct, and will be placed on the left hand side with specific product stats on the right.
   product-card:
     title: "Product Card"
+    width: 300
+    fields:
+      - name: title
+        type: string
+        example: "Pickles"
+      - name: price
+        type: string
+        example: "$ 12.00"
+      - name: image
+        type: image
+        example: "pickle.png"
     description: |
-      Each card will be on the products page. It will display a photo, the price, name of product, brief description of the product. The entire card will be clickable.
+      This card will be displayed on the products page.
   dark-jar:
     title: "Dark Jar"
+    width: 1000
+    fields:
+      - name: title
+        type: string
+        example: "Pickles"
+      - name: price
+        type: string
+        example: "$ 12.00"
+      - name: details
+        type: string
+        example: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mattis orci cursus, lacinia nisl ac, tempor lorem. Duis in vestibulum felis, id molestie sapien. Nunc vel felis non massa pretium vehicula ut vitae diam. Aenean lobortis fringilla mollis. Nullam venenatis velit vitae magna congue vulputate. Nunc sagittis purus ligula, a pulvinar magna venenatis nec. Mauris finibus imperdiet ipsum, ut luctus dui. Aliquam ullamcorper molestie enim, in viverra metus semper a. Suspendisse pellentesque mollis vestibulum. Cras non nunc vitae mauris posuere gravida. Cras rutrum urna ac mi pulvinar, sed consequat est tempus. Phasellus efficitur mi odio, ac faucibus tellus gravida sed. Aenean lobortis orci libero."
+      - name: image
+        type: image
+        example: "pickle.png"
     description: |
-      Dark Jar card will only be displayed on the dark right side of banner. It will be there for the sole purpose of welcoming viewers.
+      Dark Jar will be used when a customer selects a jar to buy. This gives a indepth break down of the product so they can add this item to their shopping cart.
   white-jar:
     title: "White Jar"
     description: |

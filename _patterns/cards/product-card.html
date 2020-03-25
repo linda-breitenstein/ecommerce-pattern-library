@@ -1,11 +1,10 @@
 
 <div class="product-card">
   <div class="card-image">
-    <img class="img-flex" src="/images/products/asparagus.png" alt="">
+    <img class="img-flex" src="/images/products/{{include.image}}" alt="">
   </div>
   <div class="card-text island">
-    <h3 class="pad-b-1">$ 12.99</h3>
-    <h2>Product for Sale</h2>
-    <p>This is a description of the current product for sale</p>
+    <h2>{{include.title'}}</h2>
+    <h3 class="mega pad-b-1">{{include.price}}</h3>
   </div>
 </div>

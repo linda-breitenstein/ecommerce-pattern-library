@@ -1,6 +1,14 @@
 
 <div class="card">
   <div class="card-image">
-    <img class="img-flex" src="/images/{{include.image-file}}" aria-label={{include.aria}} alt="">
+    <img class="img-flex" src="/images/products/{{include.image}}" aria-label={{include.aria}} alt="">
+  </div>
+  <div class="island-1-2 card-text">
+    <h2>{{include.title}}</h2>
+    <p>{{include.details}}</p>
+    <div class="text-center">
+      {% pattern buttons/basic text="Shop Now" %}
+    </div>
+
   </div>
 </div>

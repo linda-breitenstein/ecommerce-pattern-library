@@ -5,19 +5,28 @@ description: |
 patterns:
   banner-dark-card:
     title: "Banner Dark Card"
-    description: |
-      This banner will be used on the inital landing and products page. The image, title and details will change based on what page it is on.
+    height: 300
     fields:
       - name: heading
         type: string
         example: "Pickle Your Life"
-      - name: text
-        type: string
-        example: "Just like Momma used to make. Yeehaw!"
-      - name: icon
-        type: string
-        example: "black-jar"
+      - name: image
+        type: image
+        example: "picklebanner.jpg"
+    description: |
+      This banner will be used on the inital landing and products page. The image, title and details will change based on what page it is on.
+
   banner-light-card:
     title: "Banner Light Card"
+    fields:
+      - name: heading
+        type: string
+        example: "What's the Dill?"
+      - name: details
+        type: string
+        example: "Sign up with your email address to recieve news and updates"
+      - name: image
+        type: image
+        example: "bottlebanner.jpg"
     description: |
       This banner will be used on the merchandise landing page and will guide users to buy things.

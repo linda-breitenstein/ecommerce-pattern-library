@@ -19,7 +19,7 @@
 
 .header-main {
   font-family: var(--font-secondary);
-  background-color: var(--color-tertiary);
+  background-color: var(--color-primary-dark);
 }
 
 a {

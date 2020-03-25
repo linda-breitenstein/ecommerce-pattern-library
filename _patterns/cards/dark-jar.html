@@ -1,11 +1,15 @@
 <div class="dark-jar wrapper">
-  <div class="card-pad">
-    <div class="card-image">
-      <img class="img-flex" <svg><use xlink:href="/images/icons.svg#black-jar" /><svg>
+  <div class="grid">
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 card-image">
+      <img class="img-flex" src="/images/products/{{include.image}}"
     </div>
-    <div class="card-text">
-      <h2 class="pad-b-1">Products</h2>
-      <h4>Hand picked and locally sourced products with no exceptions</h4>
+  </div>
+  <div class="grid">
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 card-text">
+      <h1 class="pad-b-1">{{include.title}}</h1>
+      <h4>{{include.price}}</h4>
+      <p>{{include.details}}</p>
+      {% pattern buttons/light text="Add to Cart" %}
     </div>
   </div>
 </div>

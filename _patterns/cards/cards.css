@@ -1,35 +1,32 @@
-.product-card {
-  border-radius: 18px;
-  background-color: var(--color-quarternary);
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
-  transition: 0.5s ease;
-  cursor: pointer;
-}
 
 h1 {
   text-align: center;
-  color: var(--color-quarternary-light);
+  color: var(--color-quarternary);
+  margin: 0;
 }
 
 h2 {
+  font-family: var(--font-primary);
   text-align: center;
-  color: var(--color-secondary);
+  color: var(--color-quarternary);
+  margin: 0;
 }
 
 h3 {
   text-align: center;
   font-family: var(--font-primary);
-  color: var(--color-secondary-dark);
+  color: var(--color-quarternary);
   margin: 0;
 }
 
 h4 {
+  color: var(--color-tertiary-dark);
   font-family: var(--font-primary);
 }
 
 p {
   text-align: center;
-  color: var(--color-quarternary-light);
+  color: var(--color-quarternary);
 }
 
 .card:hover {
@@ -50,9 +47,13 @@ p {
 }
 
 .card {
-  border-radius: 18px;
+  /* border-radius: 18px;
   background-color: var(--color-quarternary);
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
   transition: 0.5s ease;
-  cursor: pointer;
+  cursor: pointer; */
+}
+
+.card-text {
+  margin-left: 50px;
 }
