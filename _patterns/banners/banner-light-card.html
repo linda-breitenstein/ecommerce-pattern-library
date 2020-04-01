@@ -1,11 +1,14 @@
-<div class="banner-light">
-  <div class="hero-image">
-    <img class="img-flex"src="/images/banners/{{include.image}}" alt="">
+<div class="banner-yellow">
+  <div class="hero-image relative">
+    <img class="img-flex" src="/images/banners/{{include.image}}" alt="">
   </div>
   <div class="hero-text text-middle">
     <h1 class="tena wrapper text-center">{{include.heading}}</h1>
     <p class="wrapper">{{include.details}}</p>
-    {% pattern buttons/ghost text="Subscribe" %}
+    {% if include.button_url %}
+      {% pattern buttons/ghost url=include.button_url text=include.button_text %}
+    {% endif %}
+
   </div>
 
 </div>

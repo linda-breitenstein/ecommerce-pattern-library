@@ -5,21 +5,56 @@ description: |
 patterns:
   basic:
     title: "Basic"
+    fields:
+      - name: text
+        type: string
+        example: "Add to Cart"
+      - name: url
+        type: url
+        example: "/products/"
     description: |
       Desfault to using the basic button. It should always be used in from of a dark or light background and also seen on banners.
   ghost:
     title: "Ghost"
-    description: |
+    fields:
+      - name: text
+        type: string
+        example: "About Us"
+      - name: url
+        type: url
+        example: "/products/"
+      description: |
       The ghost button is speciffically for the products page. It prompts the users to add items to their shopping cart. It should always be used on a dark background.
   accent:
     title: "Accent"
+    fields:
+      - name: text
+        type: string
+        example: "Shop Now"
+      - name: url
+        type: url
+        example: "/products/"
     description: |
       The accent button is speciffically for the sign up page. It promts the user to send their information to the company to save their information.
   light:
     title: "Light"
+    fields:
+      - name: text
+        type: string
+        example: "Shop Now"
+      - name: url
+        type: url
+        example: "/products/"
     description: |
       The light button is speciffically for cards. It promts users to select different options when picking out their products.
   primary:
     title: "Primary"
+    fields:
+      - name: text
+        type: string
+        example: "Shop Now"
+      - name: url
+        type: url
+        example: "/products/
     description: |
       The primary button is also seen on cards of products. It allows users to see new products.

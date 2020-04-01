@@ -6,7 +6,7 @@ textarea {
 }
 
 input {
-  border-color: var(--color-tertiary);
+  border-color: var(--color-quarternary-light);
 }
 
 input[type="radio"] + label::before,

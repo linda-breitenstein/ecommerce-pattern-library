@@ -1,28 +1,46 @@
-.banner-dark,
-.banner-light {
-  max-height: 100px;
+.banner-pink,
+.banner-yellow {
+  max-height: 100%;
 }
 
 .hero-image {
-  height: 50%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  max-width: 100%;
+  max-height: none;
 }
 
 .hero-text {
-  position: absolute;
-  top: 85%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 80%;
-  padding: 20px;
-  text-align: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 h1,
 p {
   color: var(--color-quarternary-light);
 }
+
+@media only screen and (min-width: 25em) {
+
+  .hero-text {
+    align-items: center;
+  }
+
+
+  }
+    /* transform: translate(-50%, -50%);
+
+
+/* @media only screen and (min-width: 32em) {
+
+@media only screen and (min-width: 40em) {
+
+@media only screen and (min-width: 60em) {
+
+@media only screen and (min-width: 90em) { */ */
