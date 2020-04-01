@@ -5,7 +5,8 @@
 }
 
 .current {
-  color: var(--color-primary-dark);
+  text-decoration: underline;
+  text-decoration-color: var(--color-secondary-dark);
 }
 
 .search-nav i {
@@ -17,10 +18,12 @@
   font-family: var(--font-primary);
 }
 
-.header-main {
+.header-main,
+.footer {
   font-family: var(--font-secondary);
   background-color: var(--color-primary-dark);
 }
+
 
 a {
   font-family: var(--font-primary);
