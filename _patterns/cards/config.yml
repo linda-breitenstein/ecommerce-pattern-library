@@ -31,6 +31,11 @@ patterns:
       - name: image
         type: image
         example: "pickle.png"
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
     description: |
       This card will be displayed on the products page.
   dark-jar:

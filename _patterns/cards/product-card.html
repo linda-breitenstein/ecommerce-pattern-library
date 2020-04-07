@@ -1,10 +1,12 @@
 
 <div class="product-card">
-  <div class="card-image">
-    <img class="img-flex" src="/images/products/{{include.image}}" alt="Image of Product">
-  </div>
-  <div class="card-text island">
-    <h2>{{include.title'}}</h2>
-    <h3 class="mega pad-b-1">{{include.price}}</h3>
-  </div>
+  <a class="hover-box" href="#">
+    <div class="card-image">
+      <img class="img-flex gutter" src="{{include.data.image}}" alt="Image of Product">
+    </div>
+    <div class="card-text island">
+      <h2>{{include.data.name'}}</h2>
+      <h3 class="mega pad-b-1">{{include.data.price}}</h3>
+      <!-- {% pattern buttons/primary text="Buy Now" url=include.data.url %} -->
+    </div>
 </div>
