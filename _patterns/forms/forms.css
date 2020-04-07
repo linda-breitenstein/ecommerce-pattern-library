@@ -29,7 +29,7 @@ input:not([type="checkbox"]).search, input:not([type="radio"]).search {
   padding-left: 1.75rem;
 }
 .flag-optional {
-  color: var(--color-secondary);
+  color: var(--color-primary-dark);
 }
 .is-validated input:invalid,
 .is-validates input[type="checkbox"]:invalid + label::before,
@@ -45,7 +45,7 @@ h3 {
 .error-message {
   display: none;
   background-color: var(--color-tertiary);
-  color: var(--color-tertiary-dark);
+  color: var(--color-primary-dark);
 }
 
 .error-message-highlighted {

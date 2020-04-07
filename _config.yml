@@ -26,3 +26,8 @@ patternbot:
   layouts:
     default: |
       The default layout should be used for almost every page, it includes the website's primary header & footer.
+    products: |
+      This layout is for displaying specific product information. The look will all be the same to maintain consistancy.
+collections:
+  products:
+    output: true
