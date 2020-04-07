@@ -2,7 +2,7 @@
 name: "Pickled Pearl Onions"
 description: |
   Do you like a bite of crunchy tang? Well we certainly do. Eating with all your tacos and enjoy this irresistible tang.
-image: "/images/jpg/onion.jpg"
+image: "/images/products/jpg/onion.jpg"
 price: 10.00
 colors:
   - "Pearl"
